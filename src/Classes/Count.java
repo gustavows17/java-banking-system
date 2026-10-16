@@ -21,13 +21,22 @@ public class Count {
         }
     }
 
-    public double returnBalance() {
+    public String getUserName() {
+        return userName;
+    }
+
+    public String getCpf() {
+        return cpf;
+    }
+
+    public double getBalance() {
         return balance;
     }
 
-    public double specialCheckNewValue() {
+    public double getSpecialCheck() {
         return specialCheck;
     }
+
 
     public void depositMoney(double depositValue) {
         if (depositValue <= 0) {
@@ -97,8 +106,6 @@ public class Count {
     public double getSpecialCheckUsed() {
         return specialCheckUsed;
     }
-
-
 
 }
 

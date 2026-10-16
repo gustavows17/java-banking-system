@@ -44,12 +44,12 @@ public class Main {
                     switch (answer) {
 
                         case '1':
-                            double balance = newCont.returnBalance();
+                            double balance = newCont.getBalance();
                             System.out.println("Seu saldo: R$ " + balance );
                             break;
 
                         case '2':
-                            double specialCheck = newCont.specialCheckNewValue();
+                            double specialCheck = newCont.getSpecialCheck();
                             System.out.println("Seu cheque especial: R$" + specialCheck);
                             break;
 
